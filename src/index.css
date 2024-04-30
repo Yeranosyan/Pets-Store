@@ -1,13 +1,75 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+p {
+  color: gray;
+}
+/* Centered Button with link */
+.btn {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+}
+
+/* Style for table headers */
+th {
+  background-color: #f1f1f1b1;
+}
+
+/* 404 Page not found */
+.page-not-found {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+/* Navbar */
+.navbar {
+  margin: auto;
+  margin-top: 1rem;
+  max-width: 74rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.left {
+  display: flex;
+  align-items: center;
+}
+
+.right {
+  display: flex;
+}
+
+/* Inventory pets  */
+.inventory {
+  margin: auto;
+  margin-bottom: 1rem;
+  max-width: 74rem;
+}
+
+/* Pet Details, Pets menu  */
+.table-header {
+  margin: auto;
+  margin-top: 3rem;
+  max-width: 74rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
